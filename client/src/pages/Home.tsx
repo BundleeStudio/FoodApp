@@ -33,9 +33,9 @@ function Home() {
       </div>
 
       <div className='flex flex-col gap-6 px-5'>
-        <CardReceipt title='Poulet laqué' img='https://images.unsplash.com/photo-1602253057119-44d745d9b860?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80' time='12' ingredient='3' food='🍗'/>
-        <CardReceipt title='Pate bolognaise' img='https://images.unsplash.com/photo-1567423285116-c31e6a93e939?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' time='5' ingredient='4' food='🥩'/>
-        <CardReceipt title='Saumon fumé' img='https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' time='8' ingredient='3' food='🐟'/>
+        <CardReceipt title='Poulet laqué' img='https://images.unsplash.com/photo-1602253057119-44d745d9b860?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1452&q=80' time='12' ingredient='3' food='🍗' price='1,30'/>
+        <CardReceipt title='Pate bolognaise' img='https://images.unsplash.com/photo-1567423285116-c31e6a93e939?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80' time='5' ingredient='4' food='🥩' price='1,80'/>
+        <CardReceipt title='Saumon fumé' img='https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' time='8' ingredient='3' food='🐟' price='2,50'/>
       </div>
 
       <div className={clickedButton === false ? 'hidden' : 'block w-screen h-full absolute top-0 left-0 overflow-hidden bg-greys-500 pt-4 text-smoky'}>
