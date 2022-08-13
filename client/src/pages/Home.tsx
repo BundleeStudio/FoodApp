@@ -54,7 +54,7 @@ function Home() {
           <div className='px-5'>
             <span className='font-PoppinsMedium text-base block my-4'>Type de régime</span>
 
-            <div className='flex flex-wrap  gap-y-3 justify-between'>
+            <div className='grid grid-cols-3 grid-rows-2 gap-3'>
               <FilterType food='chicken'/>
               <FilterType food='beef'/>
               <FilterType food='fish'/>
