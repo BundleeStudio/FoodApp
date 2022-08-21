@@ -4,7 +4,6 @@ function FilterType({food}: {food: 'fish' | 'beef' | 'chicken' | 'vegetarian' | 
   let icon = ''
   let name = ''    
 
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [clickedButton, setClickedButton] = useState(false);
 
   if(food=== 'fish') {
