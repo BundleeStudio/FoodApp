@@ -28,8 +28,12 @@ input[type='range']::-webkit-slider-runnable-track {
 	background: transparent;
 }
 
-.my-grid {
+.receipt-card-grid {
   grid-template-columns: repeat(3, auto) calc(70% - (0.75rem * 3));
+}
+
+.receipt-grid {
+  grid-template-columns: repeat(3, auto) calc(65% - (0.75rem * 3));
 }
 
 
